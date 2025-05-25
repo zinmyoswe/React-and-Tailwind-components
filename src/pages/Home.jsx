@@ -12,6 +12,7 @@ import TwoColumnLayout from '../components/TwoColumnLayout';
 import ThreeColumnLayout from '../components/ThreeColumnLayout';
 import FourColumnProductLayout from '../components/FourColumnProductLayout';
 import CardWithPlaceholder from '../components/CardWithPlaceholder';
+import FourColumnProductLayoutwithloading from '../components/FourColumnProductLayoutwithloading';
 
 
 
@@ -450,6 +451,9 @@ const Home = () => {
 
 <h2 className="3xl font-bold mt-4 mb-4">11. CardWithPlaceholder</h2>
          <CardWithPlaceholder />
+
+<h2 className="3xl font-bold mt-4 mb-4">12. FourColumnProductLayoutwithloading</h2>
+         <FourColumnProductLayoutwithloading />
         
 
 
