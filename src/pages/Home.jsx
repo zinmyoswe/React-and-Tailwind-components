@@ -11,6 +11,7 @@ import BlackpinkGrid from '../components/BlackpinkGrid';
 import TwoColumnLayout from '../components/TwoColumnLayout';
 import ThreeColumnLayout from '../components/ThreeColumnLayout';
 import FourColumnProductLayout from '../components/FourColumnProductLayout';
+import CardWithPlaceholder from '../components/CardWithPlaceholder';
 
 
 
@@ -446,6 +447,9 @@ const Home = () => {
 
 <h2 className="3xl font-bold mt-4 mb-4">10. FourColumnLayout Columns Layout</h2>
          <FourColumnProductLayout />
+
+<h2 className="3xl font-bold mt-4 mb-4">11. CardWithPlaceholder</h2>
+         <CardWithPlaceholder />
         
 
 
