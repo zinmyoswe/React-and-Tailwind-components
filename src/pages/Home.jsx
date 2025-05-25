@@ -9,6 +9,8 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import BlackpinkGrid from '../components/BlackpinkGrid';
 import TwoColumnLayout from '../components/TwoColumnLayout';
+import ThreeColumnLayout from '../components/ThreeColumnLayout';
+import FourColumnProductLayout from '../components/FourColumnProductLayout';
 
 
 
@@ -438,6 +440,12 @@ const Home = () => {
 
 <h2 className="3xl font-bold mt-4 mb-4">8. Two Columns Layout</h2>
         <TwoColumnLayout />
+
+<h2 className="3xl font-bold mt-4 mb-4">9. ThreeColumnLayout Columns Layout</h2>
+        <ThreeColumnLayout />
+
+<h2 className="3xl font-bold mt-4 mb-4">10. FourColumnLayout Columns Layout</h2>
+         <FourColumnProductLayout />
         
 
 
