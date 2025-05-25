@@ -13,6 +13,10 @@ import ThreeColumnLayout from '../components/ThreeColumnLayout';
 import FourColumnProductLayout from '../components/FourColumnProductLayout';
 import CardWithPlaceholder from '../components/CardWithPlaceholder';
 import FourColumnProductLayoutwithloading from '../components/FourColumnProductLayoutwithloading';
+import ThreeColumnLayoutwithloading from '../components/ThreeColumnLayoutwithloading';
+import AlertExamples from '../components/AlertExamples';
+import GradientBorderAlert from '../components/GradientBorderAlert';
+import GradientBorderAlerts2 from '../components/GradientBorderAlerts2';
 
 
 
@@ -454,6 +458,20 @@ const Home = () => {
 
 <h2 className="3xl font-bold mt-4 mb-4">12. FourColumnProductLayoutwithloading</h2>
          <FourColumnProductLayoutwithloading />
+
+<h2 className="3xl font-bold mt-4 mb-4">13. ThreeColumnLayoutwithloading</h2>
+      
+         <ThreeColumnLayoutwithloading />
+
+
+<h2 className="3xl font-bold mt-4 mb-4">14. AlertExamples</h2>
+         <AlertExamples />
+
+         <h2 className="3xl font-bold mt-4 mb-4">15. GradientBorderAlert</h2>
+         <GradientBorderAlert />
+
+         <h2 className="3xl font-bold mt-4 mb-4">16. GradientBorderAlert2</h2>
+         <GradientBorderAlerts2 />
         
 
 
