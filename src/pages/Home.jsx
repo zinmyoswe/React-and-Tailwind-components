@@ -19,6 +19,10 @@ import GradientBorderAlert from '../components/GradientBorderAlert';
 import GradientBorderAlerts2 from '../components/GradientBorderAlerts2';
 import Badge from '../components/Badge';
 import GradientBadge from '../components/GradientBadge';
+import UserTable from '../components/UserTable';
+import ImageCarousel from '../components/ImageCarousel';
+
+import CenteredCarousel from '../components/CenteredCarouselWithButton';
 
 
 
@@ -499,6 +503,20 @@ const Home = () => {
       <GradientBadge label="Info" from="from-cyan-400" to="to-blue-500" />
       <GradientBadge label="Dark" from="from-gray-700" to="to-gray-900" />
     </div>
+
+
+    <h2 className="3xl font-bold mt-4 mb-4">19. UserTable</h2>
+    <UserTable />
+
+    <h2 className="3xl font-bold mt-4 mb-4">20. ImageCarousel</h2>
+
+      <ImageCarousel />
+
+    <h2 className="3xl font-bold mt-4 mb-4">21. CenteredCarouselWithButton</h2>
+
+      <CenteredCarousel />
+
+
 
 
           
