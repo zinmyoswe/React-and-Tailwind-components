@@ -1,8 +1,11 @@
 import React from 'react'
+import CheckoutForm from '../components/CheckoutForm'
 
 const Career = () => {
   return (
-    <div>Career</div>
+    <div>
+       <CheckoutForm  />
+    </div>
   )
 }
 

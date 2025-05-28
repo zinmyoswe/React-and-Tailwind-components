@@ -1,8 +1,11 @@
 import React from 'react'
+import FourColumnProductLayoutwithloading from '../components/FourColumnProductLayoutwithloading'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <FourColumnProductLayoutwithloading />
+    </div>
   )
 }
 
