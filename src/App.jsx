@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Career from "./pages/Career";
 import ProductDetail from "./pages/ProductDetail";
+import AdminDashboard from "./pages/AdminDashboard";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/career" element={<Career />}/> 
+          <Route path="/admindashboard" element={<AdminDashboard />}/> 
           <Route path="/product/:id" element={<ProductDetail />}/>
        </Routes>
     </Router>

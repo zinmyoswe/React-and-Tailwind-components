@@ -19,3 +19,12 @@
     @apply bg-white dark:bg-gray-900;
     }
 }
+
+/* to hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

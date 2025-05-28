@@ -23,6 +23,7 @@ import UserTable from '../components/UserTable';
 import ImageCarousel from '../components/ImageCarousel';
 
 import CenteredCarousel from '../components/CenteredCarouselWithButton';
+import ProductCarousel from '../components/ProductCarousel';
 
 
 
@@ -515,6 +516,9 @@ const Home = () => {
     <h2 className="3xl font-bold mt-4 mb-4">21. CenteredCarouselWithButton</h2>
 
       <CenteredCarousel />
+
+
+      <ProductCarousel />
 
 
 

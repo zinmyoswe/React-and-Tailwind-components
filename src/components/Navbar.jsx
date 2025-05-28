@@ -36,7 +36,7 @@ export default function Navbar() {
             isOpen ? "flex" : "hidden"
           }`}
         >
-          {["Home", "Product", "Service", "Contact", "About", "Career"].map((text) => (
+          {["Home", "Product", "Service", "Contact", "About", "Career","AdminDashboard"].map((text) => (
             <Link
               key={text}
               to={`/${text === "Home" ? "" : text.toLowerCase()}`}
